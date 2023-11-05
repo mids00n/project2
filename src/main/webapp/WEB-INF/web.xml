@@ -9,4 +9,19 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>task2</display-name>
+    <servlet-name>task2</servlet-name>
+    <servlet-class>task2</servlet-class>
+    <init-param>
+      <description>message</description>
+      <param-name>message</param-name>
+      <param-value></param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>task2</servlet-name>
+    <url-pattern>/querry-controller</url-pattern>
+  </servlet-mapping>
 </web-app>
